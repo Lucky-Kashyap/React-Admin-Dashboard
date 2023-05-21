@@ -1,0 +1,76 @@
+.widgetSm{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetSmTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetSmUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmUserTitle{
+    font-weight: 300;
+}
+.widget-date{
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+
+.widgetSmButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSmUsermoney{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.widgetSmIcon-done{
+    color: green;
+    font-size: 16px !important;
+    margin-right: 5px;
+  }
+
+  .widgetSmIcon-pending{
+    font-size: 16px !important;
+    margin-right: 5px;
+    color:orangered
+  }
+
+  .two-box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+  }
+  .box{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    background-color: rgb(243, 238, 233);
+    border: 2px solid rgb(240, 230, 230);
+    border-radius: 10px;
+    margin: 2px;
+    /* width: 40%; */
+    /* flex-wrap: wrap; */
+  }
